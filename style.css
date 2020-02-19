@@ -8,7 +8,11 @@
     font-size: 15px;
     background-color: #f0f1ec;
     display: flex; /*Permet d'organiser les aside et la div "page_principale"*/
+<<<<<<< HEAD
     max-width: 900px; /*A vérifier*/
+=======
+    max-width: 900px;
+>>>>>>> CSS
     margin: auto; /*centrer la page sur la largeur indiquer au dessus "max-width"*/
 }
 
@@ -24,8 +28,18 @@ a{
 
 /* ##### ASIDE ##### */
 
+<<<<<<< HEAD
 #lisere{
-    max-width: 270px; 
+    max-width: 270px;
+=======
+aside p{
+    text-align: justify;
+    margin: 0%;
+}
+
+#lisere{
+    max-width: 330px;
+>>>>>>> CSS
     display: flex;
     flex-direction: column;
     background-color: aqua;
@@ -34,9 +48,14 @@ a{
 #cadre_photo{
     align-self: center; /*La photo est centré mais pas le reste*/
     margin-top: 30px;
+<<<<<<< HEAD
     border: solid 5px rgba(66, 66, 66, 0.6);; /**A revoir)*/
     border-radius: 50%; /**A revoir)*/
-    max-width: 150px; 
+=======
+    border: solid 5px rgba(66, 66, 66, 0.6);
+    border-radius: 50%; /* radius a 50% + width & height = même valeur == rond */
+>>>>>>> CSS
+    max-width: 150px;
     max-height: 150px;
     overflow: hidden; /*La photo ne déborde pas*/
 }
@@ -50,3 +69,204 @@ a{
     max-width: 125%; /* zoom */
     transform: translate(-1px, 0px); /*position de la photo*/
 }
+
+.titre_aside{
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: gray;
+    padding: 3%;
+    font-weight: normal;
+    font-size: 1.4em;
+}
+
+.titre_aside2{ /*Uniquement pour "A propos de moi"*/
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: grey;
+    padding: 2%;
+    font-weight: normal;
+    font-size: 1.4em;
+}
+
+.liste_contact{
+    padding-left: 8%;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
+.liste_contact li{
+    margin-bottom: 5%;
+}
+
+#a_propos{
+    flex:1; /* Prend toute la place disponnible */
+}
+
+.icones_loisirs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    color: gray;
+}
+
+/* ##### end ASIDE ##### */
+
+
+
+/* ##### HEADER ##### */
+
+header{
+    margin-bottom: 12.5%;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.5em;
+    color: black;
+    margin-top: 8%;
+    margin-bottom: 0;
+    margin-left: 6.5%;
+    padding-bottom: 0;
+}
+
+#prenom{
+    font-weight: 400;
+    color: blue;
+}
+
+h2{
+    margin-top: 0;
+    margin-left: 6.5%;
+    padding-top: 0;
+    font-size: 1.5em;
+    color: blue;
+}
+
+#developpeur{
+    border-bottom: solid;
+    border-color: blue;
+}
+
+#photo_header_mobile{
+    display: none;
+    align-self: center;
+    margin-top: 30px;
+    border: solid 3px grey;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+/* ##### end HEADER ##### */
+
+
+
+/* ##### FORMATION / EXPERIENCE PRO / RECOMMANDATION  ##### */
+
+#page_principale{
+    flex: 1; /*La page prendra tout l'espace disponnible*/
+}
+
+.article_contenu{
+    margin-right: 30px;
+}
+
+.titre_contenu{
+    margin-left: 6.5%;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    border-bottom: solid blue;
+}
+
+.titre_contenu h3{
+    font-size: 1em;
+    margin: 0;
+}
+
+.icone_contenu{
+    color: blue;
+}
+
+.titre_contenu div{
+    margin-right: 5%;
+}
+
+.liste_contenu{
+    margin-left: 8%;
+    padding-left: 0;
+}
+
+.item_experience, .item_formation{ /*Bloc liste + Puce + Periode*/
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.bloc_liste{
+    display: flex;
+    font-weight: bold;
+}
+
+.puce{
+    color: blue;
+    font-size: 0.8em;
+    margin-right: 10px;
+}
+
+
+h4, h5{
+    display: inline-block;
+    margin: 0 0 1.5% 0;
+	/*titre de la formation soit toujours aligné horizontalement avec le paragraphe dessou / titre de la formation soit toujours aligné verticalement avec l'année / marge entre les titres h4/h5/paragraphe */
+}
+
+h4{
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+h5{
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.paragraphe p{
+    margin: 0;
+}
+
+.item_formation{
+    max-width: 400px;
+}
+
+.item_experience{
+    max-width: 400px;
+}
+
+.item_recommandation{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+p span{
+    font-weight: bold;
+}
+
+/* ##### end FORMATION / EXPERIENCE PRO / RECOMMANDATION  ##### */
+
+
+
+/* ##### Responsive Design (Media Queries)  ##### */
