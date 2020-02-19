@@ -8,7 +8,7 @@
     font-size: 15px;
     background-color: #f0f1ec;
     display: flex; /*Permet d'organiser les aside et la div "page_principale"*/
-    max-width: 900px; /*A vérifier*/
+    max-width: 900px;
     margin: auto; /*centrer la page sur la largeur indiquer au dessus "max-width"*/
 }
 
@@ -24,8 +24,13 @@ a{
 
 /* ##### ASIDE ##### */
 
+aside p{
+    text-align: justify;
+    margin: 0%;
+}
+
 #lisere{
-    max-width: 270px; 
+    max-width: 330px; 
     display: flex;
     flex-direction: column;
     background-color: aqua;
@@ -69,4 +74,26 @@ a{
     padding: 2%;
     font-weight: normal;
     font-size: 1.4em;
+}
+
+.liste_contact{
+    padding-left: 8%;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
+.liste_contact li{
+    margin-bottom: 5%;
+}
+
+#a_propos{
+    flex:1; /* Prend toute la place disponnible */
+}
+
+.icones_loisirs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    color: gray;
 }
