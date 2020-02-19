@@ -1,8 +1,15 @@
 @charset "UTF-8";
 
+
+
+/* ##### BALISES GENERALE ##### */
+
 #bloc_page{
-    font-weight: normal;
-    font-style: normal;
+    font-size: 15px;
+    background-color: #f0f1ec;
+    display: flex; /*Permet d'organiser les aside et la div "page_principale"*/
+    max-width: 900px; /*A vérifier*/
+    margin: auto; /*centrer la page sur la largeur indiquer au dessus "max-width"*/
 }
 
 li{
@@ -14,4 +21,17 @@ a{
 }
 
 
+
+/* ##### ASIDE ##### */
+
+#lisere{
+    max-width: 270px; 
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+#cadre_photo{
+    align-self: center; /*La photo est centré mais pas le reste*/
+}
 
