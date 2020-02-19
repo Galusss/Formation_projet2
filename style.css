@@ -8,11 +8,7 @@
     font-size: 15px;
     background-color: #f0f1ec;
     display: flex; /*Permet d'organiser les aside et la div "page_principale"*/
-<<<<<<< HEAD
     max-width: 900px; /*A vérifier*/
-=======
-    max-width: 900px;
->>>>>>> CSS
     margin: auto; /*centrer la page sur la largeur indiquer au dessus "max-width"*/
 }
 
@@ -28,18 +24,13 @@ a{
 
 /* ##### ASIDE ##### */
 
-<<<<<<< HEAD
-#lisere{
-    max-width: 270px;
-=======
 aside p{
     text-align: justify;
     margin: 0%;
 }
 
 #lisere{
-    max-width: 330px;
->>>>>>> CSS
+    max-width: 270px;
     display: flex;
     flex-direction: column;
     background-color: aqua;
@@ -48,13 +39,8 @@ aside p{
 #cadre_photo{
     align-self: center; /*La photo est centré mais pas le reste*/
     margin-top: 30px;
-<<<<<<< HEAD
     border: solid 5px rgba(66, 66, 66, 0.6);; /**A revoir)*/
     border-radius: 50%; /**A revoir)*/
-=======
-    border: solid 5px rgba(66, 66, 66, 0.6);
-    border-radius: 50%; /* radius a 50% + width & height = même valeur == rond */
->>>>>>> CSS
     max-width: 150px;
     max-height: 150px;
     overflow: hidden; /*La photo ne déborde pas*/
