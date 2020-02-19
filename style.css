@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+
+
+/* ##### BALISES GENERALE ##### */
+
+#bloc_page{
+    font-size: 15px;
+    background-color: #f0f1ec;
+    display: flex; /*Permet d'organiser les aside et la div "page_principale"*/
+    max-width: 900px; /*A vérifier*/
+    margin: auto; /*centrer la page sur la largeur indiquer au dessus "max-width"*/
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: #212121;
+}
+
+
+
+/* ##### ASIDE ##### */
+
+#lisere{
+    max-width: 270px; 
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+#cadre_photo{
+    align-self: center; /*La photo est centré mais pas le reste*/
+    margin-top: 30px;
+    border: solid 5px rgba(66, 66, 66, 0.6);
+    border-radius: 50%; 
+    max-width: 150px; 
+    max-height: 150px;
+    overflow: hidden; /*La photo ne déborde pas*/
+}
+
+#photo_header_mobile{
+    display: none; /*La photo dans le header est uniquement présente sur mobile*/
+}
+
+.photo{
+    display: block;
+    max-width: 125%; /* zoom */
+    transform: translate(-1px, 0px); /*position de la photo*/
+}
+
+.titre_aside{
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: gray;
+    padding: 3%;
+    font-weight: normal;
+    font-size: 1.4em;
+}
+
+.titre_aside2{ /*Uniquement pour "A propos de moi"*/
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: grey;
+    padding: 2%;
+    font-weight: normal;
+    font-size: 1.4em;
+}
