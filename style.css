@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#bloc_page{
+    font-weight: normal;
+    font-style: normal;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: #212121;
+}
+
+
+
