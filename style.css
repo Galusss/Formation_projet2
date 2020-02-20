@@ -33,7 +33,7 @@ aside p{
     max-width: 270px;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: yellow;
 }
 
 #cadre_photo{
@@ -60,7 +60,7 @@ aside p{
     text-align: center;
     text-transform: uppercase;
     color: yellow;
-    background-color: gray;
+    background-color: rgb(15,15,15);
     padding: 3%;
     font-weight: normal;
     font-size: 1.4em;
@@ -70,7 +70,7 @@ aside p{
     text-align: center;
     text-transform: uppercase;
     color: yellow;
-    background-color: grey;
+    background-color: black;
     padding: 2%;
     font-weight: normal;
     font-size: 1.4em;
@@ -95,7 +95,7 @@ aside p{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 5%;
-    color: gray;
+    color: rgb(15;15;15);
 }
 
 /* ##### end ASIDE ##### */
@@ -121,7 +121,7 @@ h1{
 
 #prenom{
     font-weight: 400;
-    color: blue;
+    color: black;
 }
 
 h2{
@@ -129,12 +129,12 @@ h2{
     margin-left: 6.5%;
     padding-top: 0;
     font-size: 1.5em;
-    color: blue;
+    color: black;
 }
 
 #developpeur{
     border-bottom: solid;
-    border-color: blue;
+    border-color: black;
 }
 
 #photo_header_mobile{
@@ -169,7 +169,7 @@ h2{
     font-size: 1.5em;
     font-weight: bold;
     display: flex;
-    border-bottom: solid blue;
+    border-bottom: solid black;
 }
 
 .titre_contenu h3{
@@ -205,6 +205,9 @@ h2{
     color: blue;
     font-size: 0.8em;
     margin-right: 10px;
+}
+.puce, .periode{
+    margin-right:10px;
 }
 
 
@@ -268,14 +271,14 @@ p span{
         margin: auto;
         display: flex;
         flex-direction: column;
-        background-color: #C8E6C9;
+        background-color: yellow;
     }
     #prenom{
-        color: #2E7D32;
+        color: black;
     }
     #developpeur{
         border-bottom: solid;
-        border-color: #2E7D32;
+        border-color: black;
     }
     h1{
         margin-top: 10px;
