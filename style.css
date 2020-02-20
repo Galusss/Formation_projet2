@@ -3,7 +3,6 @@
 
 
 /* ##### BALISES GENERALE ##### */
-
 #bloc_page{
     font-size: 15px;
     background-color: #f0f1ec;
@@ -19,11 +18,10 @@ li{
 a{
     color: #212121;
 }
-
+/* ##### end BALISES GENERALE ##### */
 
 
 /* ##### ASIDE ##### */
-
 aside p{
     text-align: justify;
     margin: 0%;
@@ -97,13 +95,11 @@ aside p{
     margin-bottom: 5%;
     color: rgb(15;15;15);
 }
-
 /* ##### end ASIDE ##### */
 
 
 
 /* ##### HEADER ##### */
-
 header{
     margin-bottom: 12.5%;
 }
@@ -147,13 +143,11 @@ h2{
     height: 150px;
     overflow: hidden;
 }
-
 /* ##### end HEADER ##### */
 
 
 
 /* ##### FORMATION / EXPERIENCE PRO / RECOMMANDATION  ##### */
-
 #page_principale{
     flex: 1; /*La page prendra tout l'espace disponnible*/
 }
@@ -253,13 +247,11 @@ h5{
 p span{
     font-weight: bold;
 }
-
 /* ##### end FORMATION / EXPERIENCE PRO / RECOMMANDATION  ##### */
 
 
 
 /* ##### Responsive Design (Media Queries)  ##### */
-
 /* Tablettes */
 @media all and (max-width: 900px)
 {
@@ -417,3 +409,4 @@ p span{
         text-align: center;
     }
 }
+/* ##### end Responsive Design (Media Queries)  ##### */
