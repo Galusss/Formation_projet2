@@ -7,7 +7,7 @@
     font-size: 15px;
     background-color: #f0f1ec;
     display: flex; /*Permet d'organiser les aside et la div "page_principale"*/
-    max-width: 900px; /*A vérifier*/
+    max-width: 900px; /*largeur page*/
     margin: auto; /*centrer la page sur la largeur indiquer au dessus "max-width"*/
 }
 
@@ -16,7 +16,7 @@ li{
 }
 
 a{
-    color: #212121;
+    color: blue;
 }
 /* ##### end BALISES GENERALE ##### */
 
@@ -31,14 +31,14 @@ aside p{
     max-width: 270px;
     display: flex;
     flex-direction: column;
-    background-color: yellow;
+    background-color: #40C4FF;
 }
 
 #cadre_photo{
     align-self: center; /*La photo est centré mais pas le reste*/
     margin-top: 30px;
-    border: solid 5px rgba(66, 66, 66, 0.6);; /**A revoir)*/
-    border-radius: 50%; /**A revoir)*/
+    border: solid 5px rgba(66, 66, 66, 0.6);
+    border-radius: 50%;
     max-width: 150px;
     max-height: 150px;
     overflow: hidden; /*La photo ne déborde pas*/
@@ -57,7 +57,7 @@ aside p{
 .titre_aside{
     text-align: center;
     text-transform: uppercase;
-    color: yellow;
+    color: #40C4FF;
     background-color: rgb(15,15,15);
     padding: 3%;
     font-weight: normal;
@@ -67,7 +67,7 @@ aside p{
 .titre_aside2{ /*Uniquement pour "A propos de moi"*/
     text-align: center;
     text-transform: uppercase;
-    color: yellow;
+    color: #40C4FF;
     background-color: black;
     padding: 2%;
     font-weight: normal;
@@ -115,9 +115,10 @@ h1{
     padding-bottom: 0;
 }
 
-#prenom{
+.prenom{
     font-weight: 400;
-    color: black;
+    color:#40C4FF;
+
 }
 
 h2{
@@ -163,7 +164,7 @@ h2{
     font-size: 1.5em;
     font-weight: bold;
     display: flex;
-    border-bottom: solid black;
+    border-bottom: solid #40C4FF;
 }
 
 .titre_contenu h3{
@@ -172,7 +173,7 @@ h2{
 }
 
 .icone_contenu{
-    color: blue;
+    color: #40C4FF;
 }
 
 .titre_contenu div{
@@ -196,7 +197,7 @@ h2{
 }
 
 .puce{
-    color: blue;
+    color: #40C4FF;
     font-size: 0.8em;
     margin-right: 10px;
 }
@@ -208,7 +209,7 @@ h2{
 h4, h5{
     display: inline-block;
     margin: 0 0 1.5% 0;
-	/*titre de la formation soit toujours aligné horizontalement avec le paragraphe dessou / titre de la formation soit toujours aligné verticalement avec l'année / marge entre les titres h4/h5/paragraphe */
+	/*titre de la formation toujours aligné horizontalement avec le paragraphe dessou / titre de la formation toujours aligné verticalement avec l'année / marge entre les titres h4/h5/paragraphe */
 }
 
 h4{
@@ -263,26 +264,28 @@ p span{
         margin: auto;
         display: flex;
         flex-direction: column;
-        background-color: yellow;
+        background-color: #40C4FF;
     }
-    #prenom{
+
+    .prenom{
         color: black;
     }
     #developpeur{
         border-bottom: solid;
-        border-color: black;
+        border-color: #40C4FF;
     }
-    h1{
-        margin-top: 10px;
-    }
+    h1
+	{
+		margin-top: 10px;
+	}
     h1, h2{
         text-align: center;
     }
-    .titre_contenu{
+    #titre{
         order: 3;
         margin-top: 10px;
     }
-    #cadre_photo{
+    #photo_header_mobile{
     display: block;
     margin: auto;
     border: solid 3px rgba(158,157,36 ,0.3);
@@ -291,7 +294,7 @@ p span{
     height: 150px;
     overflow: hidden;
     }
-    .photo_header_mobile{
+    .photo_mobile{
         width: 120%;
         transform: translate(-12px, -80px);
     }
@@ -409,4 +412,9 @@ p span{
         text-align: center;
     }
 }
+
+/* Imprimante */
+
+
+
 /* ##### end Responsive Design (Media Queries)  ##### */
