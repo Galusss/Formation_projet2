@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 
-
 /* ##### BALISES GENERALE ##### */
 #bloc_page{
     font-size: 15px;
@@ -93,7 +92,7 @@ aside p{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 5%;
-    color: rgb(15;15;15);
+    color: rgb(15, 15, 15);
 }
 /* ##### end ASIDE ##### */
 
@@ -252,9 +251,11 @@ p span{
 .paragraphe, p{
     margin-left: 50px;
 }
+
 .paragraphe2{
     margin-left: 3Opx;
 }
+
 /* ##### end FORMATION / EXPERIENCE PRO / RECOMMANDATION  ##### */
 
 
