@@ -131,7 +131,7 @@ h2{
 
 #developpeur{
     border-bottom: solid;
-    border-color: black;
+    border-color: #40C4FF;
 }
 
 #photo_header_mobile{
@@ -215,7 +215,7 @@ h4, h5{
 h4{
     font-weight: bold;
     font-size: 1.1em;
-    text-transform: uppercase;
+
 }
 
 h5{
@@ -228,11 +228,11 @@ h5{
 }
 
 .item_formation{
-    max-width: 400px;
+    max-width: 900px;
 }
 
 .item_experience{
-    max-width: 400px;
+    max-width: 600px;
 }
 
 .item_recommandation{
@@ -247,6 +247,13 @@ h5{
 
 p span{
     font-weight: bold;
+}
+
+.paragraphe, p{
+    margin-left: 50px;
+}
+.paragraphe2{
+    margin-left: 3Opx;
 }
 /* ##### end FORMATION / EXPERIENCE PRO / RECOMMANDATION  ##### */
 
