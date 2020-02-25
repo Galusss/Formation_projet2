@@ -2,6 +2,10 @@
 
 
 /* ##### BALISES GENERALE ##### */
+body{
+    background-color: grey;
+}
+
 #bloc_page{
     font-size: 15px;
     background-color: #f0f1ec;
@@ -63,7 +67,7 @@ aside p{
     font-size: 1.4em;
 }
 
-.titre_aside2{ /*Uniquement pour "A propos de moi"*/
+.titre_aside_aPropos{ /*Uniquement pour "A propos de moi"*/
     text-align: center;
     text-transform: uppercase;
     color: #40C4FF;
@@ -227,7 +231,7 @@ h5{
 }
 
 .item_formation{
-    max-width: 900px;
+    max-width: 600px;
 }
 
 .item_experience{
@@ -252,9 +256,7 @@ p span{
     margin-left: 50px;
 }
 
-.paragraphe2{
-    margin-left: 3Opx;
-}
+
 
 /* ##### end FORMATION / EXPERIENCE PRO / RECOMMANDATION  ##### */
 
@@ -325,7 +327,7 @@ p span{
         max-width: unset; /* désactive la largeur max fixé*/
         order: 2;
     }
-    .titre_aside, .titre_aside2{
+    .titre_aside, .titre_aside_aPropos{
         padding: 0.8%;
     }
     #cadre_photo
