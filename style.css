@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
+/* ##### FONTS ##### */
+@font-face 
+{
+	font-family: 'open_sansregular';
+	src: url('fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot');
+	src: url('fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff'),
+	url('fonts/opensans_regular_macroman/OpenSans-Regular-webfont.ttf') format('truetype'),
+	url('fonts/opensans_regular_macroman/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'open_sanssemibold';
+	src: url('fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot');
+	src: url('fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff') format('woff'),
+	url('fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.ttf') format('truetype'),
+	url('fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} 
+/* ##### end FONTS ##### */
+
+
 
 /* ##### BALISES GENERALE ##### */
 body{
@@ -7,6 +34,7 @@ body{
 }
 
 #bloc_page{
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     background-color: #f0f1ec;
     display: flex; /*Permet d'organiser les aside et la div "page_principale"*/
@@ -63,6 +91,7 @@ aside p{
     color: #40C4FF;
     background-color: rgb(15,15,15);
     padding: 3%;
+    font-family: open_sansregular, Arial, sans-serif;
     font-weight: normal;
     font-size: 1.4em;
 }
@@ -71,8 +100,9 @@ aside p{
     text-align: center;
     text-transform: uppercase;
     color: #40C4FF;
-    background-color: black;
-    padding: 2%;
+    background-color: rgb(15,15,15);
+    padding: 3%;
+    font-family: open_sanssemibold, Arial, sans-serif;
     font-weight: normal;
     font-size: 1.4em;
 }
@@ -110,6 +140,7 @@ header{
 h1{
     text-transform: uppercase;
     font-weight: 300;
+    font-family: Yamtramanav, Arial, Helvetica, sans-serif;
     font-size: 2.5em;
     color: black;
     margin-top: 8%;
