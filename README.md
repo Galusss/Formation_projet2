@@ -1,7 +1,7 @@
 # Formation_projet2 #
-# Projet créer dans le cadre de la formation Développeur Web OpenclassRooms. #
+#Dans le cadre de la formation Développeur Web OpenclassRooms.
 
-# Compétences évaluées #
+#Compétences évaluées
  1. Définir la structure d'une page web à partir d'une maquette.
  2. Assurer la conformité d'une page web aux standards HTML et CSS. 
  3. Adapter l'affichage d'un site web à des écrans de petite taille.
