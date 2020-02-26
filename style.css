@@ -132,6 +132,8 @@ aside p{
     flex-wrap: wrap;
     margin-bottom: 5%;
     color: rgb(15, 15, 15);
+    padding-left: 22px;
+    padding-right: 22px;
 }
 /* ##### end ASIDE ##### */
 
@@ -148,7 +150,7 @@ h1{
     font-family: Yamtramanav, Arial, Helvetica, sans-serif;
     font-size: 2.5em;
     color: black;
-    margin-top: 8%;
+    margin-top: 5%;
     margin-bottom: 0;
     margin-left: 6.5%;
     padding-bottom: 0;
@@ -197,7 +199,7 @@ h2{
 }
 
 .titre_contenu{
-    margin-left: 6.5%;
+    margin-left: 8%;
     padding-bottom: 10px;
     text-transform: uppercase;
     font-size: 1.5em;
@@ -222,6 +224,8 @@ h2{
 .liste_contenu{
     margin-left: 8%;
     padding-left: 0;
+    padding-bottom: 8px;
+    padding-top: 8px;
 }
 
 .item_experience, .item_formation{ /*Bloc liste + Puce + Periode*/
@@ -263,7 +267,7 @@ h5{
 }
 
 .paragraphe p{
-    margin: 0;
+    margin: 0px;
 }
 
 .item_formation{
@@ -278,10 +282,9 @@ h5{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 135px;
+    margin-top: 10px;
 }
 
 p span{
@@ -415,13 +418,7 @@ p span{
     .article_contenu{
         margin-left: 5%;
     }
-    .titre_contenu{
-        margin: 0;
-        margin-top: 10%;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-    }
+
     .icone_contenu{
         margin-left: 5%;
     }
