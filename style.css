@@ -107,7 +107,16 @@ aside p{
     font-size: 1.4em;
 }
 
-.liste_contact{
+.text_aPropos { /*Uniquement pour "A propos de moi"*/
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#a_propos{
+    flex:1; /* Prend toute la place disponnible */
+}
+
+.liste_contact{ /*Uniquement pour "A propos de moi"*/
     padding-left: 8%;
     font-weight: bold;
     overflow-wrap: break-word;
@@ -115,10 +124,6 @@ aside p{
 
 .liste_contact li{
     margin-bottom: 5%;
-}
-
-#a_propos{
-    flex:1; /* Prend toute la place disponnible */
 }
 
 .icones_loisirs{
