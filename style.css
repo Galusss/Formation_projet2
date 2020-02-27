@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
+
+
 /* ##### FONTS ##### */
+
 @font-face 
 {
 	font-family: 'open_sansregular';
@@ -24,11 +27,13 @@
 	font-weight: normal;
 	font-style: normal;
 } 
+
 /* ##### end FONTS ##### */
 
 
 
 /* ##### BALISES GENERALE ##### */
+
 body{
     background-color: grey;
 }
@@ -49,10 +54,13 @@ li{
 a{
     color: blue;
 }
+
 /* ##### end BALISES GENERALE ##### */
 
 
+
 /* ##### ASIDE ##### */
+
 aside p{
     text-align: justify;
     margin: 0%;
@@ -135,11 +143,13 @@ aside p{
     padding-left: 22px;
     padding-right: 22px;
 }
+
 /* ##### end ASIDE ##### */
 
 
 
 /* ##### HEADER ##### */
+
 header{
     margin-bottom: 12.5%;
 }
@@ -185,11 +195,13 @@ h2{
     height: 150px;
     overflow: hidden;
 }
+
 /* ##### end HEADER ##### */
 
 
 
 /* ##### FORMATION / EXPERIENCE PRO / RECOMMANDATION  ##### */
+
 #page_principale{
     flex: 1; /*La page prendra tout l'espace disponnible*/
 }
@@ -244,10 +256,10 @@ h2{
     font-size: 0.8em;
     margin-right: 10px;
 }
+
 .puce, .periode{
     margin-right:10px;
 }
-
 
 h4, h5{
     display: inline-block;
@@ -295,20 +307,25 @@ p span{
     margin-left: 50px;
 }
 
-
+.ajustement_paragraphe{
+    margin-left: 10px;
+}
 
 /* ##### end FORMATION / EXPERIENCE PRO / RECOMMANDATION  ##### */
 
 
 
 /* ##### Responsive Design (Media Queries)  ##### */
-/* Tablettes */
+
+/* Breakpoint entre 700 & 900PX */
+
 @media all and (max-width: 900px)
 {
     #bloc_page{
         flex-direction: column;
         width: auto;
     }
+
     header{
         margin: auto;
         display: flex;
@@ -319,21 +336,26 @@ p span{
     .prenom{
         color: black;
     }
+    
     #developpeur{
         border-bottom: solid;
         border-color: #40C4FF;
     }
+
     h1
 	{
 		margin-top: 10px;
-	}
+    }
+    
     h1, h2{
         text-align: center;
     }
+
     #titre{
         order: 3;
         margin-top: 10px;
     }
+
     #photo_header_mobile{
     display: block;
     margin: auto;
@@ -343,55 +365,71 @@ p span{
     height: 150px;
     overflow: hidden;
     }
+
     .photo_mobile{
         width: 120%;
         transform: translate(-12px, -80px);
     }
+
     #corps_contenu{
         margin-top: 10px;
     }
+
     .item_experience, .item_experience{
         justify-content: space-around;
     }
+
     .puce{
         margin-right: 50px;
         min-width: 100px;
     }
+
     .item_recommandation{
         display: flex;
-        justify-content: space-around;
-        margin-top: 15px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        margin-right: 135px;
+        margin-top: 10px;
+        margin-left: 20px;
     }
+
     #lisere{
         max-width: unset; /* désactive la largeur max fixé*/
         order: 2;
     }
+
     .titre_aside, .titre_aside_aPropos{
         padding: 0.8%;
     }
+
     #cadre_photo
     {
         display: none;
     }
+
     .liste_contact{
         display: flex;
         justify-content: space-between;
         padding: 0;
     }
+
     #a_propos p{
         margin: 3%;
     }
+
     .liste_contact li{
         margin: auto;
         margin-bottom: 15px;
     }
-    #loisirs{
-        display: none;
-    }
 }
 
+/* end Breakpoint entre 700 & 900PX */
 
-/* Entre 577 & 700px */
+
+
+/* Breakpoint entre 576 & 700PX */
+
 @media all and (max-width: 700px)
 {
     .liste_contact{
@@ -400,21 +438,30 @@ p span{
     }
 }
 
-/* Smartphones */
+/* end Breakpoint entre 576 & 700PX */
+
+
+
+/* Breakpoint pour 576PX et moins */
+
 @media all and (max-width: 576px)
 {
     #bloc_page{
         font-size: 18px;
     }
+
     .photo_header_mobile{
         transform: translate(-12px, -100px);
     }
+
     h1, h2{
         margin-left: 0; 
     }
+
     h3{
         text-align: center;
     }
+
     .article_contenu{
         margin-left: 5%;
     }
@@ -422,6 +469,7 @@ p span{
     .icone_contenu{
         margin-left: 5%;
     }
+
     .titre_contenu{
         margin: 0;
         margin-top: 10%;
@@ -429,35 +477,39 @@ p span{
         align-items: center;
         padding: 0;
     }
+
     .liste_contenu{
         margin-left: 0;
         text-align: center;
    }
+
    .item_experience, .item_formation{
        flex-direction: column;
        align-items: center;
        margin-top: 10%
    }
+
    .bloc_liste{
        margin-bottom: 3%;
        align-items: center;
        margin-right: auto;
        margin-left: auto;
     }
+
     h5{
         text-decoration: underline;
     }
+
     .paragraphe p{
         margin-top: 3%;
         text-align: justify;
     }
+
     .item_recommandation{
         text-align: center;
     }
 }
 
-/* Imprimante */
-
-
+/* Breakpoint pour 576PX et moins */
 
 /* ##### end Responsive Design (Media Queries)  ##### */
