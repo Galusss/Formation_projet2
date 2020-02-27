@@ -295,7 +295,7 @@ h5{
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 10px;
-    margin-right: 135px;
+    margin-right: 105px;
     margin-top: 10px;
 }
 
@@ -309,6 +309,10 @@ p span{
 
 .ajustement_paragraphe{
     margin-left: 10px;
+}
+
+.text_aPropos {
+    text-align: justify;
 }
 
 /* ##### end FORMATION / EXPERIENCE PRO / RECOMMANDATION  ##### */
@@ -389,9 +393,9 @@ p span{
         justify-content: space-between;
         flex-wrap: wrap;
         margin-bottom: 10px;
-        margin-right: 135px;
         margin-top: 10px;
-        margin-left: 15px;
+        padding-left: 30px;
+        
     }
 
     #lisere{
@@ -441,7 +445,7 @@ p span{
         text-align: center;
 }
 
-/* end Breakpoint entre 576 & 700PX */
+/* end Breakpoint entre 619 & 700PX */
 
 
 
