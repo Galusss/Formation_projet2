@@ -1,5 +1,5 @@
 # Formation_projet2 
-# Formation Développeur Web OpenclassRooms (P2).
+# Formation Développeur Web OpenclassRooms (P2)
 
 Compétences évaluées :
  1. Définir la structure d'une page web à partir d'une maquette.

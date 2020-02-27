@@ -52,7 +52,7 @@ li{
 }
 
 a{
-    color: blue;
+    color: black;
 }
 
 /* ##### end BALISES GENERALE ##### */
@@ -391,7 +391,7 @@ p span{
         margin-bottom: 10px;
         margin-right: 135px;
         margin-top: 10px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     #lisere{
@@ -409,8 +409,7 @@ p span{
     }
 
     .liste_contact{
-        display: flex;
-        justify-content: space-between;
+        text-align: center;
         padding: 0;
     }
 
@@ -419,7 +418,7 @@ p span{
     }
 
     .liste_contact li{
-        margin: auto;
+        
         margin-bottom: 15px;
     }
 }
@@ -428,17 +427,37 @@ p span{
 
 
 
-/* Breakpoint entre 576 & 700PX */
+/* Breakpoint entre 619 & 700PX */
 
 @media all and (max-width: 700px)
 {
     .liste_contact{
-        display: flex;
         text-align: center;
+        padding: 0;
     }
+
+    .item_recommandation{
+        padding-left: 190px;
+        text-align: center;
 }
 
 /* end Breakpoint entre 576 & 700PX */
+
+
+
+/* Breakpoint entre 576 & 619PX */
+
+@media all and (max-width: 619px) /* Ajustement Recommandation */
+{
+        .item_recommandation{
+        text-align: center;
+        padding: 0;
+        margin-left: 140px;
+        
+    }
+}
+
+/* end Breakpoint entre 576 & 619PX */
 
 
 
@@ -447,7 +466,7 @@ p span{
 @media all and (max-width: 576px)
 {
     #bloc_page{
-        font-size: 18px;
+        font-size: 1em;
     }
 
     .photo_header_mobile{
@@ -507,6 +526,13 @@ p span{
 
     .item_recommandation{
         text-align: center;
+        padding: 0;
+        margin-left: 130px;
+        font-size: 0.8em;
+    }
+
+    .periode{
+        margin-right: 90px;
     }
 }
 
