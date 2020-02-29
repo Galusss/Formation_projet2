@@ -1,6 +1,8 @@
 # Formation_projet2 
 # Formation Développeur Web OpenclassRooms (P2)
 
+Exercice : Réaliser un CV qui soit responsive en HTML/CSS tout en respectant le design de la maquette. 
+
 Compétences évaluées :
  1. Définir la structure d'une page web à partir d'une maquette.
  2. Assurer la conformité d'une page web aux standards HTML et CSS. 
