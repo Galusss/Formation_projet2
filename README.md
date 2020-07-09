@@ -1,4 +1,4 @@
-## Formation_projet2 
+## OC_project2
 ### Formation Développeur Web OpenclassRooms (P2)
 
 #### Exercice : Réaliser un CV qui soit responsive en HTML/CSS tout en respectant le design de la maquette. 
